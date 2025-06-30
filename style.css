@@ -102,6 +102,9 @@ input[type="button"] {
     height: 4em;
     width: 4em;
   }
+  #result {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 460px) {
   .calculator {
@@ -109,7 +112,9 @@ input[type="button"] {
     padding-inline: 1.5em;
     width: 20em;
   }
-
+  #result {
+    font-size: 1rem;
+  }
   input[type="button"] {
     height: 2.8em;
     width: 2.8em;
@@ -121,7 +126,9 @@ input[type="button"] {
     padding-inline: 1.5em;
     width: 17em;
   }
-
+  #result {
+    font-size: 1rem;
+  }
   input[type="button"] {
     height: 3em;
     width: 3em;
