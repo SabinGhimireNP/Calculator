@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="calculator">
+        <div class="first">
+          <input type="text" name="result" id="result" />
+          <input
+            type="button"
+            class="Clear"
+            name="C"
+            value="C"
+            id="Clear"
+            onclick="result.value =' ' "
+          />
+        </div>
+        <div class="numpad">
+          <div class="second">
+            <input
+              class="noraml"
+              class="noraml"
+              type="button"
+              name=""
+              value="1"
+              onclick="calculation(1)"
+            />
+            <input
+              class="noraml"
+              type="button"
+              name=""
+              value="2"
+              onclick="calculation(2)"
+            />
+            <input
+              class="noraml"
+              type="button"
+              name=""
+              value="3"
+              onclick="calculation(3)"
+            />
+            <input
+              class="special"
+              type="button"
+              name=""
+              value="*"
+              onclick="calculation('*')"
+            />
+          </div>
+          <div class="third">
+            <input
+              class="noraml"
+              class="noraml"
+              type="button"
+              name=""
+              value="4"
+              onclick="calculation(4)"
+            />
+            <input
+              class="noraml"
+              class="noraml"
+              type="button"
+              name=""
+              value="5"
+              onclick="calculation(5)"
+            />
+            <input
+              class="noraml"
+              class="noraml"
+              type="button"
+              name=""
+              value="6"
+              onclick="calculation(6)"
+            />
+            <input
+              class="special"
+              type="button"
+              name=""
+              value="/"
+              onclick="calculation('/')"
+            />
+          </div>
+          <div class="fourth">
+            <input
+              class="noraml"
+              type="button"
+              name=""
+              value="7"
+              onclick="calculation(7)"
+            />
+            <input
+              class="noraml"
+              type="button"
+              name=""
+              value="8"
+              onclick="calculation(8)"
+            />
+            <input
+              class="noraml"
+              type="button"
+              name=""
+              value="9"
+              onclick="calculation(9)"
+            />
+            <input
+              class="special"
+              type="button"
+              name=""
+              value="-"
+              onclick="calculation('-')"
+            />
+          </div>
+          <div class="fifth">
+            <input
+              class="noraml"
+              type="button"
+              name=""
+              value="0"
+              onclick="calculation(0)"
+            />
+            <input
+              class="special dot"
+              type="button"
+              name=""
+              value="."
+              onclick="calculation('.')"
+            />
+            <input
+              class="special equals"
+              type="button"
+              name=""
+              value="="
+              onclick="calculate(result.value)"
+            />
+            <input
+              class="special"
+              type="button"
+              name=""
+              value="+"
+              onclick="calculation('+')"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
