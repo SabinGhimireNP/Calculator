@@ -33,10 +33,14 @@ main {
 }
 #result {
   height: 100%;
-  font-size: large;
+  font-size: 3rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  direction: rtl; /* Align input to the right like calculators */
+  text-align: left;
   padding-inline: 1em;
   width: 80%;
-  margin-left: 2em;
+  margin-left: 2rem;
   border-radius: 10px;
 }
 
@@ -120,6 +124,6 @@ input[type="button"] {
 
   input[type="button"] {
     height: 3em;
-    width:3em;
+    width: 3em;
   }
 }
