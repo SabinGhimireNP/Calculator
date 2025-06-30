@@ -1,0 +1,125 @@
+** {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+main {
+  /* background-color: rgb(255, 144, 8); */
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.calculator {
+  background-color: rgb(35, 34, 34);
+  padding: 3em;
+  border-radius: 50px;
+  height: 35em;
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.first {
+  height: 15%;
+  width: 100%;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#result {
+  height: 100%;
+  font-size: large;
+  padding-inline: 1em;
+  width: 80%;
+  margin-left: 2em;
+  border-radius: 10px;
+}
+
+.Clear {
+  height: 85%;
+  width: 15%;
+  font-size: large;
+  background-color: red;
+  color: aliceblue;
+  border: none;
+  border-radius: 100px;
+  margin: 1em;
+}
+
+.numpad {
+  /* background-color: aqua; */
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.numpad div {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0.5em;
+}
+
+.special {
+  border-radius: 100px;
+  background-color: rgb(0, 191, 255);
+  color: aliceblue;
+}
+.noraml {
+  font-size: large;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+input[type="button"] {
+  height: 5em;
+  width: 5em;
+  font-size: large;
+}
+.dot {
+  font-weight: bolder;
+}
+.equals {
+  background-color: rgb(143, 248, 124);
+}
+
+@media (max-width: 580px) {
+  .calculator {
+    height: 30em;
+    padding: 2em;
+    width: 25em;
+  }
+  input[type="button"] {
+    height: 4em;
+    width: 4em;
+  }
+}
+@media (max-width: 460px) {
+  .calculator {
+    height: 25em;
+    padding-inline: 1.5em;
+    width: 20em;
+  }
+
+  input[type="button"] {
+    height: 2.8em;
+    width: 2.8em;
+  }
+}
+@media (max-width: 370px) {
+  .calculator {
+    height: 25em;
+    padding-inline: 1.5em;
+    width: 17em;
+  }
+
+  input[type="button"] {
+    height: 3em;
+    width:3em;
+  }
+}
